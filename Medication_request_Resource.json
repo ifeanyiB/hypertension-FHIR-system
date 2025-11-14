@@ -1,0 +1,24 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "medreq-001",
+  "status": "active",
+  "intent": "order",
+  "medication": {
+    "concept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197361",
+          "display": "Lisinopril 10 MG Oral Tablet"
+        }
+      ]
+    }
+  },
+  "subject": {
+    "reference": "Patient/patient-hypertension-001"
+  },
+  "authoredOn": "2025-07-01",
+  "requester": {
+    "reference": "Practitioner/practitioner-001"
+  }
+}

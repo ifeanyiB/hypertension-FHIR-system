@@ -1,0 +1,12 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-hypertension-001",
+  "name": [
+    {
+      "family": "Okeke",
+      "given": ["Chinedu"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1970-04-12"
+}

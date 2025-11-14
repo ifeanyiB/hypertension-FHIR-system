@@ -1,0 +1,17 @@
+{
+  "resourceType": "Practitioner",
+  "id": "practitioner-001",
+  "name": [
+    {
+      "family": "Müller",
+      "given": ["Anja"]
+    }
+  ],
+  "qualification": [
+    {
+      "code": {
+        "text": "General Practitioner"
+      }
+    }
+  ]
+}
